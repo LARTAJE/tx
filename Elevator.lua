@@ -50,7 +50,7 @@ local function v18()
 	getgenv().apc=v29;
 	local v32 = v29:FindFirstChild("APC"):FindFirstChild("Detector");
 	if v32 then
-		v13.Torso.Position = v32.Position
+		v13.HumanoidRootPart.Position = v32.Position
 		v14.MoveToFinished:Connect(function(v35)
 			if (v35 and ((v13.HumanoidRootPart.Position-v32.Position).Magnitude<(12 -7))) then
 				local v36=0 -0 ;
