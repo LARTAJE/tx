@@ -15,10 +15,6 @@ local function v7(v24,v25)
 end
 repeat task.wait();
 until game:IsLoaded()
-
-getgenv().MapName=v7("\215\146\138","\126\177\163\187\69\134\219\167");
-getgenv().StratName=v7("\37\156\123","\156\67\173\74\165");
-
 for v27=291 -(60 + 230) ,2 do
 	print("\t\t --->\tmade by devix7\t<---");warn("\t\t --->\tmade by devix7\t<---");
 end
