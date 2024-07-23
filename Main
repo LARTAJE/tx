@@ -231,7 +231,7 @@ v9.map=function(v53,v54)
 					end
 					if (v92==(1)) then
 						v93,v94=pcall(function()
-							loadstring(game:HttpGet(v16.. "/modules/elevator.lua"))();
+							loadstring(game:HttpGet("https://raw.githubusercontent.com/LARTAJE/tx/main/Elevator.lua"))();
 						end);
 						if v93 then
 							print("Elevator module loaded successfully.");
