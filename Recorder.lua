@@ -54,6 +54,14 @@ getgenv().Loadout=table.concat(v18,v7("\64\142","\135\108\174\62\18\30\23\147"))
 local v20=v7("\251\164","\167\214\137\74\171\120\206\83")   .. v12   .. '\nlocal api = loadstring(game:HttpGet(\"https://raw.githubusercontent.com/DEVIX7/X2botWJuv8stnFRnJTDGqoqtRN8gHtTDXStrat/master/API/API.lua\", true))()\napi:loadout({'   .. getgenv().Loadout   .. '})\napi:map(\"'   .. getgenv().MapName   .. '\")\n' ;writefile(v17   .. v7("\197\228\42\73","\199\235\144\82\61\152") ,v20);
 local v21=os.clock();
 
+task.spawn(function()
+while task.wait() do
+task.spawn(function()
+	game.ReplicatedStorage.Remotes:WaitForChild("ToggleSpeedupTier1"):FireServer(true);
+end)
+end
+end)
+
 local function v22()
 	local v30=1251 -(721 + 530);
 	local v31;
