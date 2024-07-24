@@ -44,14 +44,16 @@ local v21 = tick();
 
 local function v22()
 	local v30 = 0;
-	local v31;
-	local v32;
+	local v31 = 0;
+	local v32 = 0;
+	
 	while true do
-		if (v30== 0) then
-			local v41=0;
+		
+		if (v30 == 0) then
+			local v41 = 0;
 			while true do
 				if (v41==1) then
-					v30=1 + 0 ;
+					v30 = 1;
 					break;
 				end
 				if (v41 == 0) then
@@ -61,9 +63,10 @@ local function v22()
 				end
 			end
 		end
+		
 		if (1 == v30) then
 			v21 = v31;
-			return "task.wait(".. string.format("%.2f",v32)   .. ")\n" ;
+			return "task.wait("..string.format("%.2f",v32).. ")\n" ;
 		end
 	end
 end
