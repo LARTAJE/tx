@@ -110,7 +110,7 @@ local v23;v23=hookmetamethod(game,"__namecall",function(v33,...)
 								while true do
 									if (0 == v49) then
 										v45 = v45.. v22() ;
-										v45 = v45.."api:place(".. table.concat(v44,"")..")\n" ;
+										v45 = v45.."api:place(".. table.concat(v44,",")..")\n" ;
 										break;
 									end
 								end
