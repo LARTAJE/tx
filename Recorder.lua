@@ -145,6 +145,9 @@ v23 = hookmetamethod(game,"__namecall",function(v33,...)
 					elseif (v43=="RequestUsePowerUp") then
 						v45 = v45..v22();
 						v45 = v45.."api:usepowerup(".. table.concat(v44,",")..")\n" ;
+					elseif (v43=="ToggleSpeedupTier1") then
+						v45 = v45..v22();
+						v45 = v45.."api:SpeedUp()";
 					else
 						v45 = nil;
 					end
