@@ -312,6 +312,12 @@ local function CheckPlace()
 	return game.PlaceId == 11739766412
 end
 
+v9.SpeedUp = function()
+local v124={true};
+print("Speed Up :",unpack(v124));
+v11:WaitForChild("ToggleSpeedupTier1"):FireServer(unpack(v124));
+end
+
 v9.diff = function(v57,v58)
 	if CheckPlace() then
 		local v99=0;
