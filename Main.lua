@@ -26,28 +26,6 @@ local v15 = false;
 local v16 = (v15 and "http://192.168.88.100:9999") or "https://raw.githubusercontent.com/DEVIX7/X2botWJuv8stnFRnJTDGqoqtRN8gHtTDXStrat/master";
 local v17=loadstring(game:HttpGet(v16   ..  "/reqs.lua"))();
 local v18,v19,v20=v17();
-
-if (tostring(v18)~=tostring(v8)) then
-	local v86=753 -(239 + 514);
-	local v87;
-	while true do
-		if ((0 + 0)==v86) then
-			v87=0;
-			while true do
-				if (v87==0) then
-					warn("Use last script version!", "Script stopped!", "\n\t\t\tMade by DEVIX7");
-					warn("Current V".. v8 ,"Last V"..v18 );
-					v87=1;
-				end 
-				if (v87==(1330 -(797 + 532))) then
-					return false;
-				end
-			end
-			break;
-		end
-	end
-end
-
 print("branch :",v20);
 getgenv().API = v9;
 getgenv().API.IsLoaded = false;
